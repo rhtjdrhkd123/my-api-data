@@ -103,8 +103,8 @@
       { "id": "03.", "desc": ["복잡한 시스템을 강요하지 않습니다"] }
     ]
   },
-   system: {
-      primary: [
+   "system": {
+      "primary": [
         {
           id: "01",
           title: "Trigger",
@@ -121,7 +121,7 @@
           desc: ["반복을 고정시키는 피드백 구조"],
         },
       ],
-      secondary: [
+      "secondary": [
         {
           id: "01.",
           title: "Trigger",
@@ -140,8 +140,8 @@
       ],
     },
 
-    result: {
-      primary: [
+    "result": {
+      "primary": [
         {
           type: "before",
           id: "01.",
@@ -166,7 +166,7 @@
         },
       ],
 
-      secondary: [
+      "secondary": [
         {
           id: "01",
           title: "Trigger Design",
@@ -184,7 +184,7 @@
         },
       ],
 
-      tertiary: [
+      "tertiary": [
         {
           id: "01.",
           title: "Adaptation",
