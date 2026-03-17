@@ -106,36 +106,36 @@
    "system": {
       "primary": [
         {
-          id: "01",
-          title: "Trigger",
-          desc: ["목표 중심이 아닌 구조 중심 설계"],
+          "id": "01",
+          "title": "Trigger",
+          "desc": ["목표 중심이 아닌 구조 중심 설계"],
         },
         {
-          id: "02",
-          title: "Action",
-          desc: ["의지 대신 설계된 최소 단위"],
+          "id": "02",
+          "title": "Action",
+          "desc": ["의지 대신 설계된 최소 단위"],
         },
         {
-          id: "03",
-          title: "Reinforcement",
-          desc: ["반복을 고정시키는 피드백 구조"],
+          "id": "03",
+          "title": "Reinforcement",
+          "desc": ["반복을 고정시키는 피드백 구조"],
         },
       ],
       "secondary": [
         {
-          id: "01.",
-          title: "Trigger",
-          desc: ["우리는 장식을 줄이고 구조를 남깁니다."],
+          "id": "01.",
+          "title": "Trigger",
+          "desc": ["우리는 장식을 줄이고 구조를 남깁니다."],
         },
         {
-          id: "02.",
-          title: "Action",
-          desc: ["우리는 타이포그래피로 위계를 만듭니다."],
+          "id": "02.",
+          "title": "Action",
+          "desc": ["우리는 타이포그래피로 위계를 만듭니다."],
         },
         {
-          id: "03.",
-          title: "Reinforcement",
-          desc: ["우리는 정보를 계층화합니다."],
+          "id": "03.",
+          "title": "Reinforcement",
+          "desc": ["우리는 정보를 계층화합니다."],
         },
       ],
     },
@@ -143,10 +143,10 @@
     "result": {
       "primary": [
         {
-          type: "before",
-          id: "01.",
-          title: "Before",
-          items: [
+          "type": "before",
+          "id": "01.",
+          "title": "Before",
+          "items": [
             "동기에 의존한 실행",
             "불규칙한 반복",
             "구조 없는 계획",
@@ -154,10 +154,10 @@
           ],
         },
         {
-          type: "after",
-          id: "02.",
-          title: "After",
-          items: [
+          "type": "after",
+          "id": "02.",
+          "title": "After",
+          "items": [
             "구조 기반 루틴",
             "자동화된 반복",
             "하루 단위 설계",
@@ -168,37 +168,37 @@
 
       "secondary": [
         {
-          id: "01",
-          title: "Trigger Design",
-          desc: ["목표 중심이 아닌 구조 중심 설계"],
+          "id": "01",
+          "title": "Trigger Design",
+          "desc": ["목표 중심이 아닌 구조 중심 설계"],
         },
         {
-          id: "02",
-          title: "Action",
-          desc: ["부담 없는 최소 단위 행동 정의"],
+          "id": "02",
+          "title": "Action",
+          "desc": ["부담 없는 최소 단위 행동 정의"],
         },
         {
-          id: "03",
-          title: "Reinforcement",
-          desc: ["같은 시간, 같은 방식으로 반복 고정"],
+          "id": "03",
+          "title": "Reinforcement",
+          "desc": ["같은 시간, 같은 방식으로 반복 고정"],
         },
       ],
 
       "tertiary": [
         {
-          id: "01.",
-          title: "Adaptation",
-          desc: ["의식적으로 구조에 적응하는 단계"],
+          "id": "01.",
+          "title": "Adaptation",
+          "desc": ["의식적으로 구조에 적응하는 단계"],
         },
         {
-          id: "02.",
-          title: "Stabilization",
-          desc: ["실행이 점점 부드러워지는 구간"],
+          "id": "02.",
+          "title": "Stabilization",
+          "desc": ["실행이 점점 부드러워지는 구간"],
         },
         {
-          id: "03.",
-          title: "Automation",
-          desc: ["자동화된 반복 구조 완성"],
+          "id": "03.",
+          "title": "Automation",
+          "desc": ["자동화된 반복 구조 완성"],
         },
       ],
     },
