@@ -1,0 +1,85 @@
+export async function GET() {
+  const data = {
+    steps: [
+      {
+        number: "01",
+        title: "목표를 나눕니다",
+        desc: "크게 잡은 목표를 가장 작은 행동으로 분해합니다.",
+      },
+      {
+        number: "02",
+        title: "반복 단위를 설정합니다",
+        desc: "지치지 않을 만큼 작게, 하지만 멈추지 않을 만큼 분명하게.",
+      },
+      {
+        number: "03",
+        title: "기록합니다",
+        desc: "기록은 의지를 대신하는 장치입니다.",
+      },
+      {
+        number: "04",
+        title: "방향을 확인합니다",
+        desc: "작은 반복이 쌓여 결국 하나의 방향이 됩니다.",
+      },
+    ],
+
+    timelines: [
+      {
+        id: 1,
+        time: "19:00",
+        desc: "에너지를 깨우는 시작 블록",
+      },
+      {
+        id: 2,
+        time: "20:00",
+        desc: "집중을 보호하는 90분 구조",
+      },
+      {
+        id: 3,
+        time: "21:00",
+        desc: "하루를 정리하는 회고 루틴",
+      },
+    ],
+
+    routineCards: [
+      {
+        id: 1,
+        title: "Morning Reset",
+        desc: "몸과 마음을 깨우는 15분 루틴",
+      },
+      {
+        id: 2,
+        title: "Deep Work Block",
+        desc: "집중력을 보호하는 구조 설계",
+      },
+      {
+        id: 3,
+        title: "Night Review",
+        desc: "오늘을 정리하고 내일을 준비",
+      },
+    ],
+
+    routines: [
+      {
+        id: "1",
+        title: "출근 전 20분 루틴",
+        desc: "몸을 깨우는 가장 작은 움직임.",
+        time: "20 MIN",
+      },
+      {
+        id: "2",
+        title: "퇴근 후 회복 루틴",
+        desc: "지친 하루를 정리하는 시간.",
+        time: "30 MIN",
+      },
+      {
+        id: "3",
+        title: "집중력 루틴",
+        desc: "흐트러진 리듬을 다시 맞추는 구조.",
+        time: "15 MIN",
+      },
+    ],
+  };
+
+  return Response.json(data);
+}
